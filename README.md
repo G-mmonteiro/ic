@@ -2,9 +2,13 @@
 Esse documento tem o objetivo de expor as linhas de código de um modelo de uma planta feitas para para o resumo expandido "O USO DO SOFTWARE LIVRE GNU OCTAVE NA SOLUÇÃO DE PROBLEMAS DE CONTROLE ÓTIMO EM TEMPO DISCRETO" escrito para o 15º Congresso de Inovação, Ciência e Tecnologia – CONICT.
 
 % A ideia deste programa e apresentar uma matriz que
+
 % representa os valores assumidos por J e U
+
 % Inicialmente vamos atribuir valores numericos para a e r
+
 % O numero de periodos que f oi considerado e N = 2
+
 a = 1/2;
 r = 1/2;
 N = 2;
