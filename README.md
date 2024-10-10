@@ -147,8 +147,8 @@ end
 
 k=0:N;
 
-figure
-hold on
+figure\
+hold on\
 stairs(k,x(1,:))
 stem(k(2:N+1),us(1,:),'r')
 axis([0 N+1 -abs(3*a) abs(3*a)])
