@@ -155,7 +155,7 @@ axis([0 N+1 -abs(3*a) abs(3*a)])\
 title('Estado e controle ótimo, x(0)=0')\
 legend('Estado','Controle ótimo')\
 xlabel('Período')\
-grid\
+grid
 
 figure\
 hold on\
@@ -165,7 +165,7 @@ axis([0 N+1 -abs(3*a) abs(3*a)])\
 title('Estado e controle ótimo, x(0)=a')\
 legend('Estado','Controle ótimo')\
 xlabel('Período')\
-grid\
+grid
 
 figure\
 hold on\
@@ -175,7 +175,7 @@ axis([0 N+1 -abs(3*a) abs(3*a)])\
 title('Estado e controle ótimo, x(0)=2*a')\
 legend('Estado','Controle ótimo')\
 xlabel('Período')\
-grid\
+grid
 
 figure\
 hold on\
@@ -185,7 +185,7 @@ axis([0 N+1 -abs(3*a) abs(3*a)])\
 title('Estado e controle ótimo, x(0)=3*a')\
 legend('Estado','Controle ótimo')\
 xlabel('Período')\
-grid\
+grid
 
 
 % Depois que o programa foi executado, para encontrar as respostas para o funcional,
