@@ -148,75 +148,43 @@ end
 k=0:N;
 
 figure
-
 hold on
-
 stairs(k,x(1,:))
-
 stem(k(2:N+1),us(1,:),'r')
-
 axis([0 N+1 -abs(3*a) abs(3*a)])
-
 title('Estado e controle ótimo, x(0)=0')
-
 legend('Estado','Controle ótimo')
-
 xlabel('Período')
-
 grid
 
 figure
-
 hold on
-
 stairs(k,x(2,:))
-
 stem(k(2:N+1),us(2,:),'r')
-
 axis([0 N+1 -abs(3*a) abs(3*a)])
-
 title('Estado e controle ótimo, x(0)=a')
-
 legend('Estado','Controle ótimo')
-
 xlabel('Período')
-
 grid
 
 figure
-
 hold on
-
 stairs(k,x(3,:))
-
 stem(k(2:N+1),us(3,:),'r')
-
 axis([0 N+1 -abs(3*a) abs(3*a)])
-
 title('Estado e controle ótimo, x(0)=2*a')
-
 legend('Estado','Controle ótimo')
-
 xlabel('Período')
-
 grid
 
 figure
-
 hold on
-
 stairs(k,x(4,:))
-
 stem(k(2:N+1),us(4,:),'r')
-
 axis([0 N+1 -abs(3*a) abs(3*a)])
-
 title('Estado e controle ótimo, x(0)=3*a')
-
 legend('Estado','Controle ótimo')
-
 xlabel('Período')
-
 grid
 
 
